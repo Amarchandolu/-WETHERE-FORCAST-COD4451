@@ -164,6 +164,7 @@ color: rgb(255, 0, 0);
 
 **Code Explanation: **
 body: Styles applied to the body element.
+
 • margin: 0;: Removes default margin.
 • font-family: 'Montserrat', sans-serif;: Sets the font family to Montserrat, a sans-serif font.
 • display: flex;: Uses Flexbox layout.
