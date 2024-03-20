@@ -77,15 +77,24 @@ External Stylesheets:
 External Fonts:
 
 • Montserrat: font from google fonts is used for the document.
+
 <title>: Sets the title of the document to "Weather Forecast App".
-<body>: This section contains the content of the document visible to the user.
-.container: This is a container for the content of the application.
+
+  <body>: This section contains the content of the document visible to the user.
+
+    .container: This is a container for the content of the application.
+
 .weather-card: This is a card-like container for the weather application.
+
 <h3>: Displays the title "Weather App". It is heading tag and a paired tag.
-<input>: Allows users to input the name of a city for weather information.
+
+  <input>: Allows users to input the name of a city for weather information.
+
 <button>: When clicked, triggers a JavaScript function to fetch weather information for the entered city.
+
 <div id="weather-info">: This div displays weather information fetched via JavaScript.
-<h3 id="city-name">: Displays the name of the city.
+
+  <h3 id="city-name">: Displays the name of the city.
 <p id="date">: Displays the current date.
 <p id="temperature">: Displays the temperature.
 <p id="description">: Displays a brief description of the weather.
@@ -292,6 +301,7 @@ webpage.
 The program utilizes the HTML code for providing the structure for the webpage, CSS Code provides the 
 decoration for the web page for looking more attractive and JavaScript code provides the functionality for the web page 
 so that it works effectively. 
+
 **Conclusion:**
 In conclusion, the task assigned to Chandolu Sai amareshwar during the CodeTech IT solutions internship program 
 involved writing a code using Web technologies to provide a webpage for Weather Forecast APP. The implemented 
