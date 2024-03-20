@@ -97,9 +97,13 @@ External Fonts:
 <div id="weather-info">: This div displays weather information fetched via JavaScript.
 
   <h3 id="city-name">: Displays the name of the city.
-<p id="date">: Displays the current date.
+
+    <p id="date">: Displays the current date.
+
 <p id="temperature">: Displays the temperature.
+
 <p id="description">: Displays a brief description of the weather.
+
 <p id="wind-speed">: Displays the wind speed.
 
 '''CSS:
@@ -179,55 +183,100 @@ color: rgb(255, 0, 0);
 }
 
 **Code Explanation: **
+
 body: Styles applied to the body element.
 
 • margin: 0;: Removes default margin.
+
 • font-family: 'Montserrat', sans-serif;: Sets the font family to Montserrat, a sans-serif font.
+
 • display: flex;: Uses Flexbox layout.
+
 • justify-content: center;: Centers content horizontally.
+
 • align-items: center;: Centers content vertically.
+
 • height: 100vh;: Sets the height to 100% of the viewport height.
+
 • background: linear-gradient(to right, #4CAF50, #2196F3);: Applies a linear gradient background from 
 #4CAF50 to #2196F3, from left to right.
+
 .container: Styles applied to elements with the class "container".
+
 • text-align: center;: Centers text horizontally.
+
 .weather-card: Styles applied to elements with the class "weather-card".
+
 • background-color: rgba(255, 255, 255, 0.95);: Sets the background color to a semi-transparent white.
+
 • border-radius: 20px;: Rounds the corners with a radius of 20px.
+
 • padding: 20px;: Adds internal spacing of 20px.
+
 • box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);: Adds a shadow effect.
+
 • transition: transform 0.3s ease-in-out;: Sets a transition effect for the transform property.
+
 • width: 450px;: Sets a fixed width of 450px.
+
 .weather-card:hover: Styles applied when hovering over elements with the class "weather-card".
-• transform: scale(1.05);: Enlarges the element by 5% on hover.
+transform: scale(1.05);: Enlarges the element by 5% on hover.
 #city-input: Styles applied to the element with the id "city-input".
+
 • padding: 15px;: Adds internal spacing of 15px.
+
 • margin: 10px 0;: Sets margin above and below the element to 10px.
+
 • width: 70%;: Sets the width to 70% of its container.
+
 • border: 1px solid #ccc;: Adds a 1px solid border with a light gray color.
+
 • border-radius: 5px;: Rounds the corners with a radius of 5px.
+
 • font-size: 16px;: Sets the font size to 16px.
+
 #city-input:focus: Styles applied when the element with the id "city-input" is focused.
+
 • outline: none;: Removes the default focus outline.
+
 • border-color: #2196F3;: Changes the border color on focus to #2196F3.
+
 #city-input::placeholder: Styles applied to the placeholder text of the element with the id "city-input".
+
 • color: #aaa;: Sets the color of the placeholder text to light gray.
+
 #city-input-btn: Styles applied to the element with the id "city-input-btn".
+
 • padding: 10px;: Adds internal spacing of 10px.
+
 • background-color: #2196F3;: Sets the background color to #2196F3.
+
 color: #fff;: Sets the text color to white.
+
 • border: none;: Removes the border.
+
 • border-radius: 5px;: Rounds the corners with a radius of 5px.
+
 • font-size: 16px;: Sets the font size to 16px.
+
 • cursor: pointer;: Changes the cursor to a pointer on hover.
+
 #city-input-btn:hover: Styles applied when hovering over the element with the id "city-input-btn".
+
 • background-color: #1565C0;: Changes the background color to #1565C0 on hover.
+
 #weather-info: Styles applied to the element with the id "weather-info".
+
 • display: none;: Hides the element by default.
+
 #temperature, #description, #wind-speed, #date: Styles applied to elements with the corresponding ids.
+
 • font-size: Sets the font size.
+
 • margin: Sets the margin.
+
 • font-weight: Sets the font weight for temperature.
+
 • color: Sets the text color for wind-speed and date.
 
 '''JavaScript
