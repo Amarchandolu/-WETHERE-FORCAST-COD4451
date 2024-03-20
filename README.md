@@ -107,7 +107,9 @@ External Fonts:
 <p id="wind-speed">: Displays the wind speed.
 
 '''CSS:
+
 body {
+
 margin: 0;
 font-family: 'Montserrat', sans-serif;
 display: flex;
