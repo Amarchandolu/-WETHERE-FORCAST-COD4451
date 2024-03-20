@@ -67,10 +67,15 @@ class="animate__animated animate__fadeIn">
 this case.
 <head>: This section contains metadata and links to external resources used by the document.
 External Stylesheets:
+  
 • style2.css: This stylesheet defines custom styles for elements in the document.
+
 • animate.min.css: This stylesheet provides animations through the animate.css library.
+
 • all.min.css: This stylesheet contains Font Awesome icons styles.
+
 External Fonts:
+
 • Montserrat: font from google fonts is used for the document.
 <title>: Sets the title of the document to "Weather Forecast App".
 <body>: This section contains the content of the document visible to the user.
