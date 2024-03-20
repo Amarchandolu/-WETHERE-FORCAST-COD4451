@@ -111,9 +111,13 @@ External Fonts:
 body {
 
 margin: 0;
+
 font-family: 'Montserrat', sans-serif;
+
 display: flex;
+
 justify-content: center;
+
 align-items: center;
 height: 100vh;
 background: linear-gradient(to right, #4CAF50, #2196F3);
