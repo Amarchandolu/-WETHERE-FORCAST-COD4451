@@ -9,6 +9,7 @@ structure , and insights into the programming techniques utilised. Additiona;lly
 **Intern information:**
 Name: Chandolu Sai amareshwar
 Intern ID: COD4451
+
 **Tak Description:**
 The task assigned to Chandolu Sai amareshwar during the CodeTech IT S olutions Internship programis to write 
 a code for weather forecast app using HTML,CSS and JavaScript.
