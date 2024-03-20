@@ -438,28 +438,44 @@ Constants:
 Document Ready Function:
 
 • $(document).ready(function () {...}): This is a jQuery function that executes when the document (HTML) is 
+
 fully loaded. It initiates the weatherFn function with the city name 'Pune'.
+
 weatherFn Function:
+
 • This function takes a city name (cName) as an argument.
+
 • Constructs the API URL with the city name and API key.
+
 • Attempts to fetch weather data from the OpenWeatherMap API using fetch and await.
-• If the response is successful (res.ok), it calls the weatherShowFn function with the retrieved data. If not, it 
-displays an alert indicating that the city was not found.
+
+• If the response is successful (res.ok), it calls the weatherShowFn function with the retrieved data. If not, 
+it displays an alert indicating that the city was not found.
+
 • Catches and handles any errors that may occur during the fetch process.
 weatherShowFn Function:
+
 • This function is responsible for displaying weather information on the webpage.
+
 • It updates various HTML elements with the relevant weather data extracted from the API response.
+
 • $('#city-name').text(data.name): Updates the element with the id city-name with the name of the city.
+
 • $('#date').text(moment().format('MMMM Do YYYY, h:mm:ss a')): Updates the element with the id date with 
 the current date and time using the Moment.js library.
+
 • $('#temperature').html(${data.main.temp}°C): Updates the element with the id temperature with the 
 temperature in Celsius.
+
 • $('#description').text(data.weather[0].description): Updates the element with the id description with the 
 weather description.
+
 • $('#wind-speed').html(Wind Speed: ${data.wind.speed} m/s): Updates the element with the id wind-speed
 with the wind speed.
+
 • $('#weather-icon').attr('src', '...'): Updates the src attribute of the element with the id weather-icon with the 
 appropriate weather icon URL (which is omitted in the provided code).
+
 • $('#weather-info').fadeIn(): Fades in the element with the id weather-info, presumably displaying it on the 
 webpage.
 
