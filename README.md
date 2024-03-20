@@ -84,8 +84,8 @@ External Fonts:
 <p id="temperature">: Displays the temperature.
 <p id="description">: Displays a brief description of the weather.
 <p id="wind-speed">: Displays the wind speed.
-The above shown is output after executing the HTML Code.
-…CSS:
+
+'''CSS:
 body {
 margin: 0;
 font-family: 'Montserrat', sans-serif;
@@ -160,6 +160,7 @@ color: rgb(255, 0, 0);
 font-size: 14px;
 color: rgb(255, 0, 0);
 }
+
 **Code Explanation: **
 body: Styles applied to the body element.
 • margin: 0;: Removes default margin.
@@ -210,8 +211,8 @@ color: #fff;: Sets the text color to white.
 • margin: Sets the margin.
 • font-weight: Sets the font weight for temperature.
 • color: Sets the text color for wind-speed and date.
-The above shown figure is the output after applying CSS Code.
-…JavaScript
+
+'''JavaScript
 const url =
 'https://api.openweathermap.org/data/2.5/weather';
 const apiKey =
@@ -249,7 +250,7 @@ attr('src',
 `...`);
 $('#weather-info').fadeIn();
 }
-**Code Explanation: **
+**Code Explanation:**
 Constants:
 • url: Stores the base URL of the OpenWeatherMap API.
 • apiKey: Stores the API key required for accessing the OpenWeatherMap API.
@@ -279,16 +280,14 @@ with the wind speed.
 appropriate weather icon URL (which is omitted in the provided code).
 • $('#weather-info').fadeIn(): Fades in the element with the id weather-info, presumably displaying it on the 
 webpage.
-The final output of the code using HTML, CSS and JavaScript is shown above.
-**Rationale: **
+
+**Rationale:**
 The program utilizes the HTML code for providing the structure for the webpage, CSS Code provides the 
 decoration for the web page for looking more attractive and JavaScript code provides the functionality for the web page 
 so that it works effectively. 
-**Conclusion: **
+**Conclusion:**
 In conclusion, the task assigned to Chandolu Sai amareshwar during the CodeTech IT solutions internship program 
 involved writing a code using Web technologies to provide a webpage for Weather Forecast APP. The implemented 
-solution successfully accomplishes this task using HTML, CSS and JavaScript. This documentation provides insights 
-into implementation details, code explanation, and rationale behind the chosen approach. Chandolu Sai amareshwar 
-with Intern ID COD4451, has effectively completed this task as part of the internship program. 
+solution successfully accomplishes this task using HTML, CSS and JavaScript. This documentation provides insights into implementation details, code explanation, and rationale behind the chosen approach. Chandolu Sai amareshwar with Intern ID COD4451, has effectively completed this task as part of the internship program. 
 This concludes the documentation for the task “Weather Forecast APP” assigned during the CodeTech IT Solutions 
 internship program.
